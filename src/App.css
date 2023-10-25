@@ -61,6 +61,7 @@ form {
 .card {
   display: grid;
   grid-template-columns: 1fr auto;
+  margin: 15px 0px 15px 0px;
 }
 
 .info {
