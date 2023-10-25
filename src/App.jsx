@@ -5,10 +5,12 @@ import "./App.css";
 export default function App() {
   return (
     <div className="wrapper">
-      <Header />
-      <main>
-        <MemberList/>
-      </main>
+      <body>
+        <Header />
+        <main>
+          <MemberList />
+        </main>
+      </body>
     </div>
   );
 }
