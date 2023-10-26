@@ -1,7 +1,7 @@
-export default function Avatar() {
+export default function Avatar(props) {
   return (
     <div>
-      <img src="./public/person3.webp" alt="Profil billede" className="avatar"/>
+      <img src={props.picture} alt="Profil billede" className="avatar"/>
     </div>
   );
 }

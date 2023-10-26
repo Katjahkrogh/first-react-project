@@ -81,8 +81,9 @@ p {
 }
 
 .avatar {
-  max-width: 60px;
-  border-radius: 50px;
+  max-height: 60px;
+  border-radius: 100%;
+  
 }
 
 button {

@@ -5,9 +5,9 @@ export default function MemberList() {
     <div>
       <p>Team members previously added to projects</p>
       <hr />
-      <MemberCard name="Lindsay Walton" title="Front-end Developer"/>
-      <MemberCard name="Courtney Henry" title="Designer"/>
-      <MemberCard name="Tom Cook" title="Director of Product"/>
+      <MemberCard picture="./person1.webp" name="Lindsay Walton" title="Front-end Developer"/>
+      <MemberCard picture="./person2.jpeg" name="Courtney Henry" title="Designer"/>
+      <MemberCard picture="./person3.webp" name="Tom Cook" title="Director of Product"/>
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default function MemberCard(props) {
     <>
       <div className="card">
         <div className="info">
-          <Avatar />
+          <Avatar picture={props.picture} />
           <div className="desc">
             <h2>{props.name}</h2>
             <p>{props.title}</p>
